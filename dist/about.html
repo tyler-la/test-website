@@ -1,0 +1,99 @@
+<!DOCTYPE HTML5>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>About</title>
+  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+
+</head>
+
+<!-- ************************************
+******** HOME *********
+**************************************  -->
+
+<body>
+
+  <!-- NAVIGATION BAR -->
+  <nav class="nav">
+    <div class="container">
+      <div class="logo">
+        <a href="home.html">Tyler La</a>
+      </div>
+      <div id="mainListDiv" class="main_list">
+        <ul class="navlinks">
+          <li><a href="home.html">Work</a></li>
+          <li><a href="#">Story</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </div>
+      <span class="navTrigger">
+        <i></i>
+        <i></i>
+        <i></i>
+      </span>
+    </div>
+  </nav>
+
+  <main>
+<div class="text-1-12 center-vertical">
+  <h1 style="margin-top:200px;">This is About</h1>
+</div>
+
+<div class="text-1-12 center-vertical">
+  <p class="text-regular">Hi my name is Tyler.</p>
+
+
+</div>
+  </main>
+
+
+  <!-- Footer -->
+  <footer>
+    <ul class="fav-list">
+      <li style="display:inline-block;"><a href="https://www.linkedin.com/in/tylerla/" target="_blank"><i class="fab fa-1x fa-fw fa-linkedin-in"></i></a></li>
+      <li style="display:inline-block;"><a href="https://twitter.com/tylerla129" target="_blank"><i class="fab fa-1x fa-fw fa-twitter"></i></a></li>
+      <li style="display:inline-block;"><a href="https://www.instagram.com/tylerla/" target="_blank"><i class="fab fa-1x fa-fw fa-instagram"></i></a></li>
+    </ul>
+
+    <div class="center-vertical">
+      <p class="text-footer" style="margin-top:10px;">Handmade by Tyler La.</p>
+      <p class="time-stamp" style="">last updated May 28, 2019</p>
+    </div>
+  </footer>
+
+</body>
+
+
+<!-- <script>
+  $("#hamburger").click(function() {
+    //alert( "Handler for .click() called." );
+    $(".menu").toggle();
+  });
+</script> -->
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<!-- <script src="js/scripts.js"></script> -->
+
+<script>
+  $(window).scroll(function() {
+    if ($(document).scrollTop() > 50) {
+      $('.nav').addClass('affix');
+      console.log("OK");
+    } else {
+      $('.nav').removeClass('affix');
+    }
+  });
+</script>
+
+<script>
+  $('.navTrigger').click(function() {
+    $(this).toggleClass('active');
+    console.log("Clicked menu");
+    $("#mainListDiv").toggleClass("show_list");
+    $("#mainListDiv").fadeIn();
+  });
+</script>
