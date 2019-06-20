@@ -7,6 +7,7 @@
   <title>ElectroCrane</title>
   <link href="styles.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <link href="animation.css" rel="stylesheet" type="text/css">
 
 </head>
 
@@ -41,7 +42,9 @@
     <!-- HERO -->
     <div class="video-hero">
       <video playsinline muted loop autoplay="autoplay">
+        <source src="assets/electrocrane/electrocrane-hero-video.webm" type="video/webm">
         <source src="assets/electrocrane/electrocrane-hero-video.mp4" type="video/mp4">
+
       </video>
     </div>
 
@@ -155,7 +158,7 @@
 
     <!-- Button -->
     <div class="text-2-9">
-      <button type="button"><a href="ElectroCrane-Booklet.pdf" type="application/pdf" target="_blank">View Study Guide</a></button>
+      <button type="button"><a href="assets/electrocrane/ElectroCrane-Booklet.pdf" type="application/pdf" target="_blank">View Study Guide</a></button>
     </div>
 
     <!--Crane Image + caption -->
@@ -474,33 +477,9 @@
 </body>
 
 
-<!-- <script>
-  $("#hamburger").click(function() {
-    //alert( "Handler for .click() called." );
-    $(".menu").toggle();
-  });
-</script> -->
 
 <!-- Function used to shrink nav bar removing paddings and adding black background -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<!-- <script src="js/scripts.js"></script> -->
 
-<script>
-  $(window).scroll(function() {
-    if ($(document).scrollTop() > 50) {
-      $('.nav').addClass('affix');
-      console.log("OK");
-    } else {
-      $('.nav').removeClass('affix');
-    }
-  });
-</script>
-
-<script>
-  $('.navTrigger').click(function() {
-    $(this).toggleClass('active');
-    console.log("Clicked menu");
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
-  });
+<script src="js-navigation-bar.js">
 </script>

@@ -222,7 +222,6 @@ p a:hover {
   grid-column: 3/9;
 }
 
-
 /* IMAGE GRID SYSTEM */
 img {
   width: 100%;
@@ -744,8 +743,8 @@ div[class^=text-]+div[class^=img-1-], div[class^=text-]+div[class^=img-5-] {
   margin-top: 40px;
 }
 
-.text-3-8 + .text-2-9 {
-  margin-top:40px;
+.text-3-8+.text-2-9 {
+  margin-top: 40px;
 }
 
 /* Insight */
@@ -753,28 +752,28 @@ div[class^=text-]+div[class^=img-1-], div[class^=text-]+div[class^=img-5-] {
   margin-top: 40px;
 }
 
-.caption + .vertical-line, .text-regular + .vertical-line {
-  margin-top:40px;
+.caption+.vertical-line, .text-regular+.vertical-line {
+  margin-top: 40px;
 }
 
 div[class^=text-]+div[class^=vertical-l] {
-  margin-top:40px;
+  margin-top: 40px;
 }
 
-.vertical-line + .text-3-8, .text-3-8 + .text-3-8 {
-  margin-top:20px;
+.vertical-line+.text-3-8, .text-3-8+.text-3-8 {
+  margin-top: 20px;
 }
 
-.text-3-8 + .vertical-line {
-  margin-top:40px;
+.text-3-8+.vertical-line {
+  margin-top: 40px;
 }
 
 /* Gallery section */
-.img-1-7+.img-8-12, .img-1-6 + .img-7-12{
+.img-1-7+.img-8-12, .img-1-6+.img-7-12 {
   margin-top: 80px;
 }
 
-.img-8-12+.img-1-12, .img-7-12 + .img-1-12 {
+.img-8-12+.img-1-12, .img-7-12+.img-1-12 {
   margin-top: 40px;
 }
 
