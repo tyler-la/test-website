@@ -99,7 +99,7 @@ p a:hover {
 }
 
 .container {
-  margin: 0;
+  padding: 0;
 }
 
 .separator {
@@ -235,6 +235,10 @@ p a:hover {
 
 .text-3-8 {
   grid-column: 3/9;
+}
+
+.text-8-12 {
+  grid-column: 8/13;
 }
 
 /* IMAGE GRID SYSTEM */
@@ -466,14 +470,14 @@ height: 100%;
   margin-left: 60px;
 }
 
-.intro-header .arrow1 {
+.intro-header .arrow {
   width: 20px;
   color: blue;
   text-align: center;
   position: absolute;
   bottom: 0;
   left: 50%;
-  margin-bottom: 5px;
+  margin-bottom: -15px;
 }
 
 /* ****************************** */
@@ -639,6 +643,43 @@ em {
   line-height: 133%;
   /* identical to box height, or 32px */
   letter-spacing: 0.01em;
+}
+
+.title-sponsor {
+  text-transform: uppercase;
+  font-family: var(--typeface1);
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.02em;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.title-project {
+  font-family: var(--typeface1);
+  font-style: normal;
+  font-weight: bold;
+  font-size: 28px;
+  line-height: 35px;
+  color: var(--black-dark);
+}
+
+.title-description {
+  font-family: var(--typeface2);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.title-highlight {
+  font-family: var(--typeface2);
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 150%;
+color: rgba(0, 0, 0, 0.5);
 }
 
 .vertical-line {
@@ -860,6 +901,26 @@ p+ul, ul+p {
 h3+ul {
   margin-top: 10px;
 }
+
+/* Title */
+.title-sponsor + .title-project {
+  margin-top:5px;
+}
+
+ .title-project + .title-description {
+  margin-top:10px;
+}
+
+.title-description+.title-highlight{
+  margin-top:20px;
+}
+
+.img-1-7 +.text-8-12 {
+  margin-top:20px;
+}
+
+
+
 
 /* ****************************** */
 /*********** ALIGNMENT ************/
@@ -1257,10 +1318,9 @@ h3+ul {
   }
 }
 
-.container {
-  /* height: 100vh; */
-}
-
+/* .container {
+  height: 100vh;
+} */
 .below {
   height: 100vh;
 }
@@ -1277,9 +1337,7 @@ i {
   margin-left: -20px;
   width: 40px;
   height: 60px;
-  /*change with size of arrow to make sit on bottom */
-  /*   background-image: url(); */
-  /*   background-size: contain; */
+  /* background-size: contain; */
 }
 
 .bounce {
