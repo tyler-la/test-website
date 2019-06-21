@@ -908,13 +908,13 @@ h3+ul {
 /*********** RESPONSIVE ***********/
 /* ****************************** */
 @media screen and (max-width: 800px) {
-  main {
+  main .grid-12 {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 10%;
     margin-right: 10%;
   }
 
-  main div, main h2, main p, main h3 {
+  main .grid-12 div, main .grid-12 h2, main .grid-12 p, main .grid-12 h3 {
     grid-column: 1 !important;
   }
 
