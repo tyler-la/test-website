@@ -795,6 +795,7 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   word-spacing: 0.05em;
+  background: none;
 }
 
 button:hover {
@@ -1047,6 +1048,7 @@ h3+ul {
 /*********** RESPONSIVE ***********/
 /* ****************************** */
 @media screen and (max-width: 800px) {
+
   main .grid-12, main .grid-homepage {
     grid-template-columns: repeat(1, 1fr);
     margin-left: 10%;
