@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
   <title>Work</title>
-  <link href="styles.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 
 </head>
@@ -37,16 +37,28 @@
     </div>
   </nav>
 
+  <!-- INTRO -->
   <main>
-<div class="text-1-12 center-vertical">
-  <h1 style="margin-top:200px;">This is homepage</h1>
-</div>
+    <div class="intro-header">
+      <div class="text-2-9 center-horizontal">
+        <p class="text-intro-main">Hey there, I'm Tyler!</h1>
+          <p class="text-intro-overview">I'm an interaction designer with a background in Marketing and Big Data Analytics. I bring empathy and analytical thinking to solving complex problems. Currently pursuing the <a target="_blank" href="https://mhcid.washington.edu/">Master of Human-Computer Interaction + Design</a> at UW.</p>
+      </div>
 
-<div class="text-1-12 center-vertical">
-  <p class="text-regular"><a href="electrocrane.html">ElectroCrane</a></p>
-  <p class="text-regular"><a href="juneau.html">Juneau</a></p>
+      <div class="text-1-12 arrow1 bounce">
+        <img src="assets/global/down-arrow.svg" alt="">
+      </div>
+    </div>
 
-</div>
+    <div class="text-1-12 center-vertical">
+      <h1 style="margin-top:200px;">This is homepage</h1>
+    </div>
+
+    <div class="text-1-12 center-vertical">
+      <p class="text-regular"><a href="electrocrane.html">ElectroCrane</a></p>
+      <p class="text-regular"><a href="juneau.html">Juneau</a></p>
+
+    </div>
   </main>
 
 
@@ -67,33 +79,9 @@
 </body>
 
 
-<!-- <script>
-  $("#hamburger").click(function() {
-    //alert( "Handler for .click() called." );
-    $(".menu").toggle();
-  });
-</script> -->
 
-<!-- Function used to shrink nav bar removing paddings and adding black background -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<!-- <script src="js/scripts.js"></script> -->
-
-<script>
-  $(window).scroll(function() {
-    if ($(document).scrollTop() > 50) {
-      $('.nav').addClass('affix');
-      console.log("OK");
-    } else {
-      $('.nav').removeClass('affix');
-    }
-  });
-</script>
-
-<script>
-  $('.navTrigger').click(function() {
-    $(this).toggleClass('active');
-    console.log("Clicked menu");
-    $("#mainListDiv").toggleClass("show_list");
-    $("#mainListDiv").fadeIn();
-  });
-</script>
+<script src="js/js-navigation-bar.js"></script>
+<script src="js/transition.js"></script>
+<script src="js/image-zoom.js"></script>
+<script src="js/bounce.js"></script>
