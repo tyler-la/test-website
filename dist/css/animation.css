@@ -217,12 +217,12 @@
 
   40% {
     -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
+    transform: translateY(-20px);
   }
 
   60% {
     -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
+    transform: translateY(-10px);
   }
 }
 
@@ -238,14 +238,14 @@
     -moz-transform: translateY(-30px);
     -ms-transform: translateY(-30px);
     -webkit-transform: translateY(-30px);
-    transform: translateY(-30px);
+    transform: translateY(-20px);
   }
 
   60% {
     -moz-transform: translateY(-15px);
     -ms-transform: translateY(-15px);
     -webkit-transform: translateY(-15px);
-    transform: translateY(-15px);
+    transform: translateY(-10px);
   }
 }
 
