@@ -633,17 +633,17 @@ p {
   font-family: var(--typeface1);
   font-style: normal;
   font-weight: 700;
-  font-size: 50px;
-  line-height: 63px;
+  font-size: 6.3vh;
+  line-height: 8vh;
   color: var(--white);
 }
 
 .text-intro-overview {
   font-family: var(--typeface2);
   font-style: normal;
-  font-weight: 100;
-  font-size: 24px;
-  line-height: 38px;
+  font-weight: 300;
+  font-size: 3.1vh;
+  line-height: 5vh;
 }
 
 em {
