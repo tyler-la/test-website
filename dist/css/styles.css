@@ -1164,7 +1164,7 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
 /*********** RESPONSIVE ***********/
 /* ****************************** */
 @media screen and (max-width: 800px) {
-  main.grid-12, main .grid-homepage, section.grid-12, section div.grid-gallery {
+  main.grid-12, main .grid-homepage, section.grid-12, section div.grid-gallery, section div.grid-12 {
     grid-template-columns: repeat(1, 1fr);
     margin-left: var(--page-margin);
     margin-right: var(--page-margin);
@@ -1182,7 +1182,7 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
     grid-column: 1 !important;
   }
 
-  section div.grid-gallery div {
+  section div.grid-12 div, section div.grid-gallery div {
     grid-column: 1 !important;
   }
 
@@ -1228,9 +1228,9 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
     margin-top: 40px !important;
   }
 
-   section.grid-12 div.text-2-5, section.grid-12 div.text-6-9 {
-     text-align:center;
-   }
+  section.grid-12 div.text-2-5, section.grid-12 div.text-6-9 {
+    text-align: center;
+  }
 }
 
 @media screen and (max-width: 500px) {
