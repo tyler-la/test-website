@@ -382,14 +382,14 @@ img {
   max-width: 477px;
   max-height: 258px;
   object-fit: cover;
-  margin-top: 200px;
+  /* margin-top: 200px; */
   margin-bottom: 120px;
 }
 
 /* VIDEO THUMBNAIL */
 .video-hero {
   grid-column: 1/13;
-  margin-top: 80px;
+  margin-top: 40px;
   height: auto;
   position: relative;
   padding: 56.25% 0 0 0;
@@ -411,7 +411,7 @@ height: 100%;
 } */
 .video-thumbnail {
   grid-column: 2/10;
-  margin-top: 80px;
+  margin-top: 40px;
   height: auto;
   position: relative;
   padding: 56.25% 0 0 0;
@@ -953,6 +953,10 @@ div.grid-homepage div.img-1-6+div.grid-homepage div.img-7-12 {
   margin-top: 0;
 }
 
+main.grid-12+section.next-project-section {
+  margin-top: 100px;
+}
+
 /* Quote block */
 *+.quote-svg {
   margin-top: 40px;
@@ -1070,7 +1074,7 @@ h3+ul {
   margin-top: 20px;
 }
 
-main+footer {
+main+footer,section.next-project-section +footer {
   margin-top: 120px;
 }
 
@@ -1164,12 +1168,18 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
 /*********** RESPONSIVE ***********/
 /* ****************************** */
 @media screen and (max-width: 800px) {
-  main.grid-12, main .grid-homepage, section.grid-12, section div.grid-gallery, section div.grid-12 {
+  main.grid-12, main .grid-homepage, section.grid-12, section div.grid-gallery, section div.grid-12, section.next-project-section {
     grid-template-columns: repeat(1, 1fr);
     margin-left: var(--page-margin);
     margin-right: var(--page-margin);
   }
 
+  /* section.next-project-section {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: var(--page-margin);
+    margin-right: var(--page-margin);
+  } */
   main.grid-12 div, main.grid-12 h2, main.grid-12 p, main.grid-12 h3 {
     grid-column: 1 !important;
   }
@@ -1194,28 +1204,32 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
     margin-top: 40px !important;
   }
 
+  div.text-2-9 h1 {
+    padding-top: 40px;
+  }
+
+  div.img-1-7+div.img-8-12 {
+    margin-top: 40px;
+  }
+
   /* ElectroCrane Specifics */
   #electrocrane-testing-1 {
-    grid-row: 33;
+    grid-row: 35;
   }
 
   #electrocrane-testing-2 {
-    grid-row: 37;
+    grid-row: 39;
   }
 
-  .next-project-section {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    margin-left: var(--margin);
-    margin-right: 8.3%;
-    /* background: #EEEEEE; */
+  div.text-2-9+div.text-1-4 img.quote-svg {
+    margin-top: 20px;
   }
 
   .img-next-project {
     max-width: 477px;
-    max-height: 258px;
+    height: auto;
     object-fit: cover;
-    margin-top: 180px;
+    /* margin-top: 180px; */
     margin-bottom: 20px;
   }
 
@@ -1294,5 +1308,46 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
 
   .nav div.media_button {
     display: block;
+  }
+
+  /* Text size */
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 32px;
+  }
+
+  h3 {
+    /* margin-top: 20px; */
+  }
+
+  .text-overview {
+    font-size: 22px;
+  }
+
+  .text-quote {
+    font-size: 22px;
+  }
+
+  div.caption+div.text-2-9 {
+    padding-top: 0px;
+  }
+
+  .video-hero {
+    margin-top: 80px;
+  }
+
+  h3+ul {
+    margin-top: 5px;
+  }
+
+  div.text-5-7 h3, div.text-8-10 h3 {
+    margin-top: 20px;
+  }
+
+  *+.quote-svg {
+    margin-top: 20px;
   }
 }
