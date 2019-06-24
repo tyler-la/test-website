@@ -997,6 +997,10 @@ div[class^=text-]+div[class^=vertical-l] {
   margin-top: 40px;
 }
 
+.text-insight + .text-regular {
+margin-top:10px;
+}
+
 /* Gallery section */
 .img-1-7+.img-8-12, .img-1-6+.img-7-12 {
   margin-top: 80px;
@@ -1200,6 +1204,10 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
     margin-top:40px;
   }
 
+  .img-1-6+.img-7-12 {
+    margin-top: 40px;
+}
+
   /* ElectroCrane Specifics */
   #electrocrane-testing-1 {
     grid-row: 35;
@@ -1220,6 +1228,20 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
   }
   .text-next-project {
     margin-top: 10px !important;
+  }
+
+  /* JUNEAU specifics */
+
+  #juneau-explore {
+    grid-row: 15;
+  }
+
+  #juneau-anonymity {
+    grid-row: 17;
+  }
+
+  #juneau-collection {
+    grid-row: 19;
   }
 
   /* ABOUT Specifics */
