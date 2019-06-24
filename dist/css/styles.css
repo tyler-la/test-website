@@ -953,7 +953,7 @@ main.grid-12+section.next-project-section {
 }
 
 .text-help+.quote-svg {
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .quote-svg+.quote {
@@ -1155,7 +1155,7 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
 }
 
 /* ****************************** */
-/*********** RESPONSIVE ***********/
+/*********** RESPONSIVE 800px***********/
 /* ****************************** */
 @media screen and (max-width: 800px) {
   main.grid-12, main .grid-homepage, section.grid-12, section div.grid-gallery, section div.grid-12, section.next-project-section {
@@ -1229,6 +1229,10 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
 
 }
 
+/* ***************************** */
+/******** RESPONSIVE 500PX*********/
+/* ****************************** */
+
 @media screen and (max-width: 500px) {
   main.grid-12, main .grid-homepage {
     grid-template-columns: repeat(1, 1fr);
@@ -1290,6 +1294,10 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
 
   .nav div.media_button {
     display: block;
+  }
+
+  .separator-bar{
+    margin-top:80px;
   }
 
   /* Text size */
