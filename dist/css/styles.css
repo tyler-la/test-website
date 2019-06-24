@@ -1196,6 +1196,10 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
     margin-top: 40px;
   }
 
+  section.next-project-section div + div{
+    margin-top:40px;
+  }
+
   /* ElectroCrane Specifics */
   #electrocrane-testing-1 {
     grid-row: 35;
