@@ -1271,6 +1271,10 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
     margin-right: 1.5em;
   }
 
+div.intro-header div.text-2-9, div.intro-header div.text-1-12 {
+  grid-column: 2/11;
+}
+
   .img-hero {
     grid-column: 1/13;
     height: auto;
