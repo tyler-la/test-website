@@ -381,8 +381,15 @@ img {
 .img-moments {}
 
 
-
 /* VIDEO THUMBNAIL */
+
+video {
+  width: 100%;
+  image-resolution: from-image;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
 .video-hero {
   grid-column: 1/13;
   margin-top: 40px;
@@ -394,6 +401,10 @@ img {
   height: 0;
   margin-top: 120px;
   overflow: hidden;
+}
+
+.video-2-9 {
+  grid-column: 2/10;
 }
 
 .video-thumbnail {
@@ -934,8 +945,7 @@ div.caption + div.img-2-9 img {
   margin-top:40px;
 }
 
-
-.text-regular+.img-2-9 {
+.text-regular+.img-2-9, div.text-2-9+div.video-2-9  {
   margin-top: 40px;
 }
 
@@ -1022,6 +1032,8 @@ p+ul, ul+p {
 h3+ul {
   margin-top: 10px;
 }
+
+
 
 /* ****************************** */
 /*********** HOMEPAGE ************/
