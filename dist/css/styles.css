@@ -132,8 +132,8 @@ p a:hover {
   width: inherit;
   padding-top: 80px;
   padding-bottom: 80px;
-  width:60px;
-  height:auto;
+  width: 60px;
+  height: auto;
 }
 
 hr {
@@ -380,9 +380,7 @@ img {
 
 .img-moments {}
 
-
 /* VIDEO THUMBNAIL */
-
 video {
   width: 100%;
   image-resolution: from-image;
@@ -936,16 +934,15 @@ div[class^=text-]+div[class^=img-1-], div[class^=text-]+div[class^=img-5-] {
 /* .caption+.img-2-9, .caption+.text-regular {
   margin-top: 40px;
 } */
-
-div.text-2-9 div.caption + p.text-regular, div.caption + div.text-2-9 p.text-regular {
-  margin-top:40px;
+div.text-2-9 div.caption+p.text-regular, div.caption+div.text-2-9 p.text-regular {
+  margin-top: 40px;
 }
 
-div.caption + div.img-2-9 img {
-  margin-top:40px;
+div.caption+div.img-2-9 img {
+  margin-top: 40px;
 }
 
-.text-regular+.img-2-9, div.text-2-9+div.video-2-9  {
+.text-regular+.img-2-9, div.text-2-9+div.video-2-9 {
   margin-top: 40px;
 }
 
@@ -1007,8 +1004,8 @@ div[class^=text-]+div[class^=vertical-l] {
   margin-top: 40px;
 }
 
-.text-insight + .text-regular {
-margin-top:10px;
+.text-insight+.text-regular {
+  margin-top: 10px;
 }
 
 /* Gallery section */
@@ -1032,8 +1029,6 @@ p+ul, ul+p {
 h3+ul {
   margin-top: 10px;
 }
-
-
 
 /* ****************************** */
 /*********** HOMEPAGE ************/
@@ -1080,7 +1075,7 @@ h3+ul {
   margin-top: 20px;
 }
 
-main+footer,section.next-project-section +footer {
+main+footer, section.next-project-section+footer {
   margin-top: 120px;
 }
 
@@ -1212,13 +1207,13 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
     margin-top: 40px;
   }
 
-  section.next-project-section div + div{
-    margin-top:40px;
+  section.next-project-section div+div {
+    margin-top: 40px;
   }
 
   .img-1-6+.img-7-12 {
     margin-top: 40px;
-}
+  }
 
   /* ElectroCrane Specifics */
   #electrocrane-testing-1 {
@@ -1238,12 +1233,12 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
     max-height: 258px;
     object-fit: cover;
   }
+
   .text-next-project {
     margin-top: 10px !important;
   }
 
   /* JUNEAU specifics */
-
   #juneau-explore {
     grid-row: 15;
   }
@@ -1264,13 +1259,11 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
   section.grid-12 div.text-2-5, section.grid-12 div.text-6-9, section.next-project-section {
     text-align: center;
   }
-
 }
 
 /* ***************************** */
 /******** RESPONSIVE 500PX*********/
 /* ****************************** */
-
 @media screen and (max-width: 500px) {
   main.grid-12, main .grid-homepage {
     grid-template-columns: repeat(1, 1fr);
@@ -1334,8 +1327,8 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
     display: block;
   }
 
-  .separator-bar{
-    margin-top:80px;
+  .separator-bar {
+    margin-top: 80px;
   }
 
   /* Text size */
@@ -1377,5 +1370,22 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
 
   *+.quote-svg {
     margin-top: 20px;
+  }
+
+  .text-intro-main {
+    font-family: var(--typeface1);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 5vh;
+    line-height: 7vh;
+    color: var(--white);
+
+    .text-intro-overview {
+      font-family: var(--typeface2);
+      font-style: normal;
+      font-weight: 300;
+      font-size: 2.8vh;
+      line-height: 4.5vh;
+    }
   }
 }
