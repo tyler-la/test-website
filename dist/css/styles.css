@@ -405,6 +405,10 @@ video {
   grid-column: 2/10;
 }
 
+.video-5-12 {
+  grid-column: 5/13;
+}
+
 .video-thumbnail {
   grid-column: 2/10;
   margin-top: 40px;
@@ -943,6 +947,10 @@ div.caption+div.img-2-9 img {
 }
 
 .text-regular+.img-2-9, div.text-2-9+div.video-2-9 {
+  margin-top: 40px;
+}
+
+div.text-2-4 + div.video-5-12 {
   margin-top: 40px;
 }
 
