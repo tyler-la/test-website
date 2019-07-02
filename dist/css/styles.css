@@ -954,6 +954,10 @@ div.text-2-4 + div.video-5-12 {
   margin-top: 40px;
 }
 
+div.video-5-12 + div.video-2-9 {
+  margin-top:40px;
+}
+
 div.grid-homepage div.img-1-6+div.grid-homepage div.img-7-12 {
   margin-top: 0;
 }
