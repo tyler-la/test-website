@@ -233,6 +233,10 @@ hr {
   grid-column: 1/5;
 }
 
+.text-1-6 {
+  grid-column:1/7;
+}
+
 .text-1-9 {
   grid-column: 1/10;
 }
@@ -768,13 +772,13 @@ em {
   font-family: Lato;
   font-style: normal;
   font-weight: bold;
-  font-size: 22px;
+  font-size: 18px;
   line-height: 133%;
   /* identical to box height, or 32px */
   letter-spacing: 0.01em;
 }
 
-.title-sponsor {
+/* .title-sponsor {
   text-transform: uppercase;
   font-family: var(--typeface1);
   font-style: normal;
@@ -783,33 +787,33 @@ em {
   line-height: 150%;
   letter-spacing: 0.02em;
   color: rgba(0, 0, 0, 0.3);
-}
+} */
 
-.title-project {
+/* .title-project {
   font-family: var(--typeface1);
   font-style: normal;
   font-weight: bold;
   font-size: 28px;
   line-height: 35px;
   color: var(--black-dark);
-}
+} */
 
-.title-description {
+/* .title-description {
   font-family: var(--typeface2);
   font-style: normal;
   font-weight: 300;
   font-size: 18px;
   line-height: 150%;
-}
+} */
 
-.title-highlight {
+/* .title-highlight {
   font-family: var(--typeface2);
   font-style: normal;
   font-weight: 300;
   font-size: 16px;
   line-height: 150%;
   color: rgba(0, 0, 0, 0.5);
-}
+} */
 
 .vertical-line {
   position: relative;
@@ -1084,16 +1088,8 @@ h3+ul {
 /*********** HOMEPAGE ************/
 /* ****************************** */
 /* Work */
-.section-category {
-  grid-column: 1/13;
-}
-
 .project-image {
-  position: relative;
-  grid-column: 1/7;
   height: auto;
-  /* overflow: hidden; */
-  /* box-shadow: 0px 0px 10px 2px rgba(#c5c5c5, 0.5); */
   box-sizing: border-box;
   transition: all 0.3s;
 }
@@ -1102,10 +1098,23 @@ h3+ul {
   transform: scale(1.01);
   background-position: center 100%;
   background-size: 100%;
-  box-shadow: 2px 4px 5px rgba(0, 0, 0, 0.05);
+  box-shadow: 2px 4px 2px rgba(0, 0, 0, 0.05);
 }
 
-.project-detail {
+.project-tile{
+  /* padding:0; */
+  width:100%
+  height:350px;
+}
+
+div.text-1-6 a + p, div.text-7-12 a + p {
+  margin-top:15px;
+}
+
+div.project-tile + div.project-tile {
+  margin-top:80px;
+}
+/* .project-detail {
   grid-column: 8/13;
 }
 
@@ -1123,7 +1132,7 @@ h3+ul {
 
 .title-highlight+a button {
   margin-top: 20px;
-}
+} */
 
 main+footer, section.next-project-section+footer {
   margin-top: 120px;
