@@ -247,7 +247,7 @@ section.grid-blog .content-details .blog-medium, section.grid-blog .content-deta
   background: $md-chip-color;
   border-radius: 32px;
   background: var(--primary-medium);
-  border-radius: 50px;
+  border-radius: 2px;
   font-size: 12px;
 }
 
