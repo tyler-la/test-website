@@ -581,6 +581,10 @@ hr {
   grid-column: 1/5;
 }
 
+.text-1-5 {
+  grid-column: 1/6;
+}
+
 .text-1-6 {
   grid-column: 1/7;
 }
@@ -619,6 +623,10 @@ hr {
 
 .text-3-8 {
   grid-column: 3/9;
+}
+
+.text-3-9 {
+  grid-column: 3/10;
 }
 
 .text-5-7 {
@@ -733,6 +741,12 @@ img {
 .img-2-11 {
   grid-column: 2/12;
   margin-top: 40px;
+  height: auto;
+}
+
+.img-3-9 {
+  grid-column: 3/10;
+  /* margin-top: 40px; */
   height: auto;
 }
 
