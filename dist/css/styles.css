@@ -1,4 +1,31 @@
 /* ****************************** */
+/************ SEPARATOR ****************/
+/* ****************************** */
+
+h1.line {
+    overflow: hidden;
+    text-align: center;
+}
+h1.line:before,
+h1.line:after {
+    background-color: #000;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+h1.line:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+h1.line:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+/* ****************************** */
 /************ WORK ****************/
 /* ****************************** */
 .project-tile {
@@ -587,6 +614,10 @@ hr {
 
 .text-1-6 {
   grid-column: 1/7;
+}
+
+.text-1-7{
+  grid-column:1/8;
 }
 
 .text-1-9 {
