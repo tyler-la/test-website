@@ -909,7 +909,18 @@ video {
 /* ****************************** */
 /******* HOMEPAGE INTRO *******/
 /* ****************************** */
-.intro-header {
+.grid-hero {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-column-gap: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  /* background: var(--nav-background); */
+  height: 100%;
+  color: white;
+}
+
+.grid-intro {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-column-gap: 20px;
@@ -920,7 +931,7 @@ video {
   color: white;
 }
 
-.intro-header a {
+.grid-intro a {
   color: white;
   font-weight: 300;
   text-decoration: none !important;
@@ -928,15 +939,15 @@ video {
   border-bottom: 1px solid var(--primary-dark);
 }
 
-.intro-header a:hover {
+.grid-intro a:hover {
   border-bottom: 1px solid var(--white);
 }
 
-.intro-header .sub-header {
+.grid-intro .sub-header {
   margin-left: 60px;
 }
 
-.intro-header .arrow {
+.grid-intro .arrow {
   width: 20px;
   color: blue;
   text-align: center;
@@ -1718,6 +1729,11 @@ div.img-2-5+.text-regular, div.img-6-9+.text-regular {
 
   .video-hero {
     margin-top: 80px;
+  }
+
+  .video-hero {
+    margin-top: 80px;
+    width:100%
   }
 
   h3+ul {
