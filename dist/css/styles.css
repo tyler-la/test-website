@@ -1940,6 +1940,15 @@ section.grid-about {
   color: var(--black-dark);
 }
 
+section.grid-about .title-project {
+  font-family: var(--typeface1);
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 150%;
+  color: var(--black-dark);
+}
+
 /* Spacing */
 section.grid-about+section.grid-about {
   margin-top: 40px;
@@ -1986,6 +1995,14 @@ section.grid-about div.project-content+div.project-description {
   section.grid-about div.img-7-12 {
     grid-column: 2;
   }
+
+  .quote-about {
+    font-size: 24px;
+  }
+
+  section.grid-about .title-project {
+    font-size:16px;
+}
 }
 
 @media screen and (max-width: 500px) {
@@ -1997,6 +2014,20 @@ section.grid-about div.project-content+div.project-description {
 
   section.grid-about div.img-2-11 {
     margin-top: 80px;
+  }
+
+  section.grid-about .text-about-description {
+    font-size: 13px;
+  }
+
+  section.grid-about .quote-about {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+
+    section.grid-about .title-project {
+      font-size:13px;
   }
 }
 
