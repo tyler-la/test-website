@@ -659,6 +659,7 @@ li {
   padding-left: -10px;
   font-family: var(--typeface2);
   font-style: normal;
+  color:var(--black-dark);
   font-weight: 300;
   font-size: 18px;
   line-height: 150%;
@@ -840,7 +841,7 @@ h3 {
   font-weight: 600;
   font-size: 16px;
   letter-spacing: 0.1em;
-  color: rgba(0, 0, 0, 1);
+  color: var(--black-dark);
   text-transform: uppercase;
   margin: 0;
 }
