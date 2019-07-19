@@ -36,6 +36,11 @@ body {
   margin: 0;
 }
 
+mark {
+  background-color: #FFF7CB;
+  border-radius: 2px;
+}
+
 /* main {
   display: grid;
   grid-template-columns: repeat(12, 1fr);
