@@ -311,6 +311,10 @@ hr {
   grid-column: 5/9;
 }
 
+.text-5-9 {
+  grid-column: 5/10;
+}
+
 .text-6-9 {
   grid-column: 6/10;
 }
@@ -664,7 +668,7 @@ li {
   padding-left: -10px;
   font-family: var(--typeface2);
   font-style: normal;
-  color:var(--black-dark);
+  color: var(--black-dark);
   font-weight: 300;
   font-size: 18px;
   line-height: 150%;
@@ -1272,11 +1276,12 @@ section.grid-design-process dix.text-2-9 h1+div.text-2-9 h2 {
     grid-row-gap: 20px;
   }
 
-  section.grid-design-process div.text-2-9,
   section.grid-design-process div.text-1-12,
-  section.grid-design-process div.text-3-8,
   section.grid-design-process div.text-2-7,
+  section.grid-design-process div.text-2-9,
   section.grid-design-process div.text-2-11,
+  section.grid-design-process div.text-3-8,
+  section.grid-design-process div.text-4-9,
   section.grid-design-process div.img-2-9,
   section.grid-design-process div.img-1-12,
   section.grid-design-process div.img-8-12 {

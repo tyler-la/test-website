@@ -86,6 +86,8 @@
         <p class="text-regular">To enhance mission efficiency, the <a target="_blank" href="https://mars.nasa.gov/mars2020/mission/overview/">The Mars 2020</a> team at <a target="_blank" href="https://www.jpl.nasa.gov/">NASA Jet Propulsion Laboratory</a> (NASA JPL) is working to reduce rover daily planning time from 8 to 5 hours. Rover planning at JPL is a complex decision-making process, requiring consensus among various scientific and engineering teams to maximize discovery while maintaining the safety of the rover.</p>
 
         <p class="text-regular">Similar to the effect of water on Earth, dust dominates the surface of Mars and dictates most of its weather conditions. Atmospheric opacity (tau) is a measurement of how much dust is present in the air. This information is not available in current tools which makes it difficult for scientists to assess how their targets could affect rover instruments. This contributes to a back and forth between the science and engineering teams, resulting in lengthy daily planning time.</p>
+
+        <p class="text-regular">In 6 months, our team worked with NASA JPL to research and design Tau tool, a web-based platform that visualizes atmospheric opacity (tau) to help scientists quickly understand its impact on instruments and improve the decision-making process.</p>
       </div>
 
       <div class="text-2-6">
@@ -113,10 +115,6 @@
         </ul>
       </div>
 
-      <div class="text-1-12">
-        <img data-action="zoom" src="assets/tau/nasa-design-process.png" alt="">
-      </div>
-
       <!-- SEPARATOR -->
       <div class="text-2-9">
         <img class="separator" src="assets/global/Separator.png" alt="">
@@ -134,6 +132,204 @@
         <img data-action="zoom" src="assets/tau/nasa-tau-storyboard.png" alt="">
         <p class="text-caption"><img class="fav-img-caption" src="assets/global/caption-icon.svg" role="presentation">I storyboarded the concept to evaluate the experience & identify design iteractions.</p>
       </div>
+    </section>
+
+    <!-- DESIGN PROCESS -->
+    <section class="grid-design-process">
+      <div class="text-2-9">
+        <h1>Design Process</h1>
+      </div>
+
+      <!-- Project timeline -->
+      <div class="text-1-12">
+        <img data-action="zoom" src="assets/tau/nasa-design-process.png" alt="">
+      </div>
+
+      <!-- Understand context -->
+      <div class="text-2-9">
+        <h2>Understand context</h2>
+        <p class="text-regular">After receiving the brief from our advisor at NASA JPL, the first step was to gather all the necessary information to help our team understand the context of the project.</p>
+      </div>
+
+      <div class="text-2-6">
+        <p class="text-regular">Audience</p>
+        <ul class="ul-bullet">
+          <li>Primary user: scientists.</li>
+          <li>Secondary user: rover planners.</li>
+        </ul>
+      </div>
+
+      <div class="text-7-11">
+        <p class="text-regular">Organizational challenges</p>
+        <ul class="ul-bullet">
+          <li>Mars 2020 mission is still in the planning process.</li>
+          <li>No concrete workflow has been defined.</li>
+          <li>The teams are geographically dispersed.</li>
+        </ul>
+      </div>
+
+      <div class="text-2-6">
+        <p class="text-regular">Existing culture</p>
+        <ul class="ul-bullet">
+          <li>NASA heavily relies on legacy tools.</li>
+          <li>The Mars mission team embraces the unilateral consensus when making decisions.</li>
+        </ul>
+      </div>
+
+      <div class="text-7-11">
+        <p class="text-regular">Logistical challenges</p>
+        <ul class="ul-bullet">
+          <li>Limited access to confidential information.</li>
+          <li>Remote research and usability testing.</li>
+          <li>Getting access to participants is difficult. </li>
+        </ul>
+      </div>
+
+      <div class="text-2-9">
+        <h3>Takeaways</h3>
+        <p class="text-regular">For the project to be successful, we need to keep 2 things in mind:</p>
+        <ol>
+          <li><em>Navigate design in a high-stake environment</em></li>
+          <p class="text-regular">Navigating design within NASA is challenging because of both organizational and logistical challenges. The process of scheduling and getting approvals could be time-consuming.
+            <li style="margin-top:20px;"><em>Choose a feasible scope</em></li>
+            <p class="text-regular">Designing for a typical space mission could take years in advance. To make the project successful, we need to make an impact with incrementalism. Instead of focusing on mission-critical challenges, we need to find ways to improve the planning process incrementally.
+            </p>
+          </p>
+        </ol>
+      </div>
+
+      <!-- SEPARATOR -->
+      <div class="text-2-9">
+        <img class="separator" src="assets/global/Separator.png" alt="">
+      </div>
+
+      <!-- Familiarize with Mars and NASA JPL’s structure -->
+      <div class="text-2-9">
+        <h2>Assess the impact of tau on Mars 2020
+        </h2>
+      </div>
+
+      <div class="text-2-6">
+        <h3>Literature reviews</h3>
+        <p class="text-regular">We conducted a comprehensive literature review to evaluate how past rover missions are different from Mars 2020. Research topics included rover instruments, weather variables, JPL team structures, collaboration, and scientific data visualization.</p>
+      </div>
+
+      <div class="text-7-11">
+
+        <h3>EXPERT & USER INTERVIEWS</h3>
+        <p class="text-regular">We selected 18 JPL scientists, engineers, and data visualization experts as the research population. Semi-structured interviews, directed storytelling, and iterative diagraming as 3 main methods for our research activity.
+        </p>
+      </div>
+
+      <div class="text-2-9">
+        <h3>Prominent insights</h3>
+        <p class="text-regular">We synthesize data and came up with 8 insights in total. The insights below are relevant to weather and tau; the rest of the insights can be found via our research report.</p>
+      </div>
+
+      <!-- <div class="vertical-line text-2-6">
+        <p class="text-insight">The mission team needs to think long-term</p>
+        <p class="text-regular" style="margin-top:10px;">Meeting the proposed 5-hour operational timeline is unattainable unless rover teams shift focus to long-term goals.</p>
+      </div> -->
+
+      <div class="vertical-line text-2-6">
+        <p class="text-insight">Understanding weather is crucial for mission success</p>
+        <p class="text-regular" style="margin-top:10px;">Weather no longer poses a critical risk to rover safety, but still must be considered due to its impact on instruments and power constraints.</p>
+      </div>
+
+      <!--
+      <div class="vertical-line text-7-11">
+        <p class="text-insight">There's no weather forecast</p>
+        <p class="text-regular" style="margin-top:10px;">Weather on Mars is relatively predictable, however, there is no weather forecasting despite its potential applications to long-term planning purposes.</p>
+      </div> -->
+
+      <div class="vertical-line text-7-11">
+        <p class="text-insight">Tau information is critical yet it is not available in planning tools</p>
+        <p class="text-regular" style="margin-top:10px;">Unavailable atmospheric opacity (𝞃) measurements in internal tools negatively impact operational efficiency.</p>
+      </div>
+
+      <div class="vertical-line text-2-6">
+        <p class="text-insight">Data facilitates productive discussions</p>
+        <p class="text-regular" style="margin-top:10px;">In the conflict between mission groups, the only shared language is data. Even then, every specialty has its own dialect, leading to misunderstandings.</p>
+      </div>
+
+      <!-- <div class="vertical-line text-2-6">
+        <p class="text-insight">Rover safety is paramount</p>
+        <p class="text-regular" style="margin-top:10px;">Despite tactical disagreements and the varying cultures, rover safety takes precedence because without a rover, there is no scientific discovery.</p>
+      </div> -->
+
+      <div class="vertical-line text-7-11">
+        <p class="text-insight">Knowing the history of data is important</p>
+        <p class="text-regular" style="margin-top:10px;">Data is more revealing when contextualized with other observations. Existing tools do not have this capability, hindering scientific discovery.</p>
+      </div>
+
+      <!-- Tau Artifact -->
+      <div class="text-1-12 center-vertical">
+        <img data-action="zoom" src="assets/tau/nasa-atmospheric-opacity-tau-artifact.png" alt="">
+        <p class="text-caption"><img class="fav-img-caption" src="assets/global/caption-icon.svg" role="presentation">I created this research artifact to visualize the impact of tau on the Mars 2020 mission.</p>
+      </div>
+
+      <!-- <div class="vertical-line text-7-11">
+        <p class="text-insight">The plurality of tool is both "a feature and a bug"</p>
+        <p class="text-regular" style="margin-top:10px;">The use of numerous custom-built tools is “both a feature and a bug”; it makes output inconsistent, but leads to advancement through productive scientific discussions.</p>
+      </div> -->
+
+
+      <!-- SEPARATOR -->
+      <div class="text-2-9">
+        <img class="separator" src="assets/global/Separator.png" alt="">
+      </div>
+
+      <!-- Craft design principles -->
+      <div class="text-2-9">
+        <h2>Craft design requirements</h2>
+      </div>
+
+      <div class="text-2-6 center-vertical">
+        <img style="width:4em;" src="assets/tau/icon-design-requirement-1.png" alt="">
+        <p class="text-regular" style="margin-top:20px;"><em>Facilitate debate</em></p>
+        <p class="text-regular">The advancement of scientific knowledge stands to benefit from disagreement as dissent breeds productive debate in order to reconcile conflicts. Our tool needs to facilitate healthy discussion between differing points of view in order to drive scientific advancement.</p>
+      </div>
+
+      <div class="text-7-11 center-vertical">
+        <img style="width:4em;" src="assets/tau/icon-design-requirement-2.png" alt="">
+        <p class="text-regular" style="margin-top:20px;"><em>Prioritize customization and flexibility</em></p>
+        <p class="text-regular">Scientific discoveries stem from finding novel ways to analyze and interpret data. To promote further exploration, the tool needs to provide scientists the ability to explore a dataset in various ways without disrupting existing work preferences.</p>
+      </div>
+
+      <div class="text-2-6 center-vertical">
+        <img style="width:4em;" src="assets/tau/icon-design-requirement-3.png" alt="">
+        <p class="text-regular" style="margin-top:20px;"><em>See through the same lens</em></p>
+        <p class="text-regular">Scientists are using their own tools and this could lead to misunderstandings about the meaning of their output. As a result, enabling shared mental models is crucial in order to ground conversations.</p>
+      </div>
+
+      <div class="text-7-11 center-vertical">
+        <img style="width:3.5em;" src="assets/tau/icon-design-requirement-4.png" alt="">
+        <p class="text-regular" style="margin-top:20px;"><em>Show how it fits in bigger picture</em></p>
+        <p class="text-regular">Scientists and engineers should understand how their work impacts each other and the overall mission. This can be done through contextualizing data to provide a comprehensive view of the situation.</p>
+      </div>
+
+      <div class="text-4-9 center-vertical">
+        <img style="width:4em;" src="assets/tau/icon-design-requirement-5.png" alt="">
+        <p class="text-regular" style="margin-top:20px;"><em>Stay transparent</em></p>
+        <p class="text-regular">Understanding the history of data is just as important as understanding what it means. To scientists, knowing the provenance of data facilitates trust, exposes caveats, and helps ground the conversations.</p>
+      </div>
+
+      <!-- SEPARATOR -->
+      <div class="text-2-9">
+        <img class="separator" src="assets/global/Separator.png" alt="">
+      </div>
+
+      <!-- Perform competitive analysis -->
+      <div class="text-2-9">
+        <h2>Perform competitive analysis</h2>
+        <p class="text-regular">We approached the competitive analysis with the intention to assess a variety of tools related to collaboration, communication, mapping, and data visualization. The analysis included translational products to better understand how other industries approach solving issues related to collaboration in time-pressing situations.</p>
+      </div>
+
+      <div class="text-1-12 center-vertical">
+        <img src="assets/tau/nasa-competitive-analysis.png" alt="">
+        <p class="text-caption"><img class="fav-img-caption" src="assets/global/caption-icon.svg" role="presentation">I took the lead in setting up the metrics and defining the analysis process so that we could carry out a consistent, non-biased competitive analysis.</p>
+      </div>
+
 
       <div class="text-2-11">
         <hr>
