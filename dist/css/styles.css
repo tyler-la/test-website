@@ -148,7 +148,8 @@ a {
   color: inherit;
 }
 
-p a {
+p a,
+ul li a {
   color: var(--primary-dark);
   font-weight: inherit;
   text-decoration: none;
@@ -160,7 +161,8 @@ p a {
   transition: border 0.2s ease;
 }
 
-p a:hover {
+p a:hover,
+ul li a:hover {
   background-size: 100% 100%;
   cursor: pointer;
   border-bottom: 0.8px solid var(--primary-dark);
