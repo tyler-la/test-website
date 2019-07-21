@@ -1493,7 +1493,7 @@ section.grid-next-project {
 
 /* For overlay */
 .project-content .project-overlay {
-  background: rgba(246, 246, 246, 0.8);
+  background: rgba(246, 246, 246, 0.95);
   position: absolute;
   height: 100%;
   width: 100%;
@@ -1554,9 +1554,9 @@ section.grid-next-project {
   opacity: 1;
 }
 
-section.grid-work .project-details p {
+/* section.grid-work .project-details p {
   font-size: 14px;
-}
+} */
 
 .fadeIn-bottom {
   top: 80%;
