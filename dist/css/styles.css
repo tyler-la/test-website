@@ -148,8 +148,7 @@ a {
   color: inherit;
 }
 
-p a,
-ul li a {
+p a {
   color: var(--primary-dark);
   font-weight: inherit;
   text-decoration: none;
@@ -161,8 +160,7 @@ ul li a {
   transition: border 0.2s ease;
 }
 
-p a:hover,
-ul li a:hover {
+p a:hover {
   background-size: 100% 100%;
   cursor: pointer;
   border-bottom: 0.8px solid var(--primary-dark);
@@ -1136,6 +1134,24 @@ section.grid-tldr div.text-2-6+div.text-7-11, div.text-7-11+div.text-2-6 {
 
 section.project-hero+section.grid-tldr {
   margin-top: 80px;
+}
+
+section.grid-tldr ul li a {
+  color: var(--primary-dark);
+  font-weight: inherit;
+  text-decoration: none;
+  border-bottom: 0.8px solid var(--primary-medium);
+  -webkit-transition: border 0.2s ease;
+  -moz-transition: border 0.2s ease;
+  -ms-transition: border 0.2s ease;
+  -o-transition: border 0.2s ease;
+  transition: border 0.2s ease;
+}
+
+section.grid-tldr ul li a:hover {
+  background-size: 100% 100%;
+  cursor: pointer;
+  border-bottom: 0.8px solid var(--primary-dark);
 }
 
 /* Responsive */
