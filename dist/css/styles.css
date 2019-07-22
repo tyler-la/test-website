@@ -370,7 +370,7 @@ img {
 .img-hero {
   grid-column: 1/13;
   height: auto;
-  padding-top: 120px;
+padding-top:50px;
 }
 
 .img-1-12 {
@@ -2192,11 +2192,7 @@ section.grid-about div.project-content+div.project-description {
     grid-column: 2/11;
   }
 
-  .img-hero {
-    grid-column: 1/13;
-    height: auto;
-    padding-top: 80px;
-  }
+
 
   /* Nav Bar */
   .navTrigger {
