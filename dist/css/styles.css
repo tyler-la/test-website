@@ -315,6 +315,10 @@ hr {
   grid-column: 5/10;
 }
 
+.text-5-12 {
+  grid-column: 5/13;
+}
+
 .text-6-9 {
   grid-column: 6/10;
 }
