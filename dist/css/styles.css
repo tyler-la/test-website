@@ -1268,6 +1268,24 @@ section.grid-final-concept div.text-2-9+div.img-2-9 {
   #juneau-collection {
     grid-row: 8;
   }
+
+  /* TAU SPECIFIC */
+  #tau-gif-1 {
+    grid-row:2;
+  }
+
+  #tau-gif-2{
+    grid-row:4;
+  }
+
+  #tau-gif-3{
+    grid-row:6;
+  }
+
+  #tau-gif-4{
+    grid-row:8;
+  }
+
 }
 
 /* ****************************** */
