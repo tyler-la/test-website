@@ -39,9 +39,10 @@
 
 <body>
 
-  <!-- Page transition: Fade-in -->
+  <!-- Page transition: Fade in & out-->
+  <svg id="fader" class="fade-out"></svg>
   <script>
-    document.body.classList.add('fade');
+    fadeInPage();
   </script>
 
   <!-- NAVIGATION BAR -->
@@ -571,15 +572,13 @@
       <p class="time-stamp" style="">last updated Sep, 2019</p>
     </div>
   </footer>
-
-  <!-- Fadein -->
-  <script src="js/fade-in-pagetransition.js"></script>
-
 </body>
 
 <!-- ************************************
 *************** SCRIPTS *****************
 **************************************  -->
+<script src="js/fade-in.js"></script>
+<script src="js/fade-out.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script src="js/js-navigation-bar.js"></script>
 <script src="js/transition.js"></script>
