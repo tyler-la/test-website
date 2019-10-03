@@ -39,7 +39,7 @@ body {
 /* Page transition - fadein */
 body {
   opacity: 1;
-  transition: 0.70s opacity;
+  transition: 0.8s opacity;
 }
 
 body.fade {
