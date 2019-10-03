@@ -36,6 +36,17 @@ body {
   margin: 0;
 }
 
+/* Page transition - fadein */
+body {
+  opacity: 1;
+  transition: 0.80s opacity;
+}
+
+body.fade {
+    opacity: 0;
+    transition: none;
+}
+
 mark {
   background-color: #FFF7CB;
   border-radius: 2px;
